@@ -10,5 +10,3 @@ Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
 
 end
-
-  Democracy.view_path = "app/views/polls/"

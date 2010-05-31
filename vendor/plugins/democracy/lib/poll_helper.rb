@@ -2,7 +2,7 @@ module Democracy
   module PollHelper
     include Democracy
 
-    def poll params
+    def poll
       # config
       view_dir = get_view_dir
 
