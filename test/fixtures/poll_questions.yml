@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  question: MyString
+  total_votes: 1
+  total_voters: 1
+  active: false
+  start_date: 2010-05-30 19:46:32
+  end_date: 2010-05-30 19:46:32
+  multiple: false
+
+two:
+  question: MyString
+  total_votes: 1
+  total_voters: 1
+  active: false
+  start_date: 2010-05-30 19:46:32
+  end_date: 2010-05-30 19:46:32
+  multiple: false

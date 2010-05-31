@@ -1,0 +1,8 @@
+Setup
+
+======================================
+To specify the path of your poll views, outside of the Initializer.run on your
+environment.rb, set the path
+
+example:
+Democracy.view_path = "app/views/path_to_views"

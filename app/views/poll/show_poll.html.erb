@@ -1,0 +1,8 @@
+<% form_tag(url_for(:action => 'register_vote')) do %> 
+Question: <i><%= poll_obj.question %></i>
+<% poll_obj.poll_answers.each do |ans| %>
+  <%= ans.answer %> <%= radio_button_tag 'democracy_answer[]', ans.id %> <br>
+<% end %>
+<%= submit_tag 'Vote' %>
+<%= hidden_field_tag 'poll_id', poll_obj.id %>
+<% end %>

@@ -1,0 +1,9 @@
+Create a new poll
+<% form_for @poll do |f| %>
+  <%= f.text_field :question %>
+  <% f.fields_for :poll_answers do |builder| %>
+    <%= builder.label :answer %>
+    <%= builder.text_field :answer %>
+  <% end %>
+  <%= f.submit "Submit" %>
+<% end %>
